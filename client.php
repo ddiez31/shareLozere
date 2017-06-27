@@ -7,8 +7,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Demande de prestation</title>
-  <link rel="stylesheet" href="./style/client.css">
+  <title>Resultat de prestation</title>
+  <link rel="stylesheet" href="./style/resultat.css">
 </head>
 
 <body>
@@ -22,23 +22,45 @@
 
   <div class="choix">
 
-  <h1>Vous cherchez un professionnel:</h1>
-  <ul>
-    <li><input type="checkbox" name="" value="photo">pour faire des photos</li>
-    <li><input type="checkbox" name="" value="digital marketing">en e-commerce</li>
-    <li><input type="checkbox" name="" value="marketing">en marketing</li>
-    <li><input type="checkbox" name="" value="referencement">du référencement</li>
-    <li><input type="checkbox" name="" value="formation">pour vous dispenser une formation</li>
-    <li><input type="checkbox" name="" value="conseil">pour vous conseiller</li>
-    <li><input type="checkbox" name="" value="design">pour le design de votre site internet</li>
-    <li><input type="checkbox" name="" value="site">pour créer un site internet</li>
-    <li><input type="checkbox" name="" value="referencement">pour créer une appli mobile</li>
-  </ul>
+  <h1>Nous vous proposons cette liste<br>
+      de prestataires      pour votre site internet </h1>
 
-  <form class="validation" action="index.html" method="post">
-    <a href="#">Valider</a>
 
-  </form>
+          <li>
+              <ul>
+                  <p><b><span>/// Nom : </span></b>Lozweb.com<br>
+                      <b><span>/// Téléphone : </span></b>XX XX XX XX XX<br>
+                      <b><span>/// Mail : </span></b>lozweb-contact@free.com<br>
+                      <br>
+                      <b><span>/// Nom : </span></b>MendCount.com<br>
+                      <b><span>/// Téléphone : </span></b>XX XX XX XX XX<br>
+                      <b><span>/// Mail : </span></b>mendcount-admin@free.com<br>
+                      <br>
+                      <b><span>/// Nom : </span></b>Fast'il.com<br>
+                      <b><span>/// Téléphone : </span></b>XX XX XX XX XX<br>
+                      <b><span>/// Mail : </span></b>fast-admin@free.com<br>
+                      <br>
+                      <b><span>/// Nom : </span></b>auchoix.fr<br>
+                      <b><span>/// Téléphone : </span></b>XX XX XX XX XX<br>
+                      <b><span>/// Mail : </span></b>auchoix-admin@free.com<br>
+                  </p>
+              </ul>
+
+          </li>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
 </div>
 </div>
 
