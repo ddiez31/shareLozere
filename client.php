@@ -5,8 +5,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Demande de prestation</title>
-  <link rel="stylesheet" href="./style/client.css">
+  <title>Resultat de prestation</title>
+  <link rel="stylesheet" href="./style/resultat.css">
 </head>
 <body>
 <header>
