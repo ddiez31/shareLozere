@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,64 +9,60 @@
         </script>
     </head>
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Formulaire Prestataire</h2>
-                </div>
-                <form method="">
-                    <div class="panel panel-default">
-                        <div class="col-xs-6">
-                             <div class="form-group">
-                               <label for="nom">Nom:</label>
-                               <input type="nom" class="form-control" id="email">
-                             </div>
-                             <div class="form-group">
-                               <label for="prenom">téléphone:</label>
-                               <input type="prenom" class="form-control" id="tel">
-                             </div>
-                        </div>
-                        <div class="col-xs-6">
-                             <div class="form-group">
-                               <label for="email">email:</label>
-                               <input type="email" class="form-control" id="email">
-                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4">
-                                <div class="panel panel-default">
-                                    <!-- Default panel contents -->
-                                    <div class="panel-heading">Compétences:</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+          <h2>Formulaire Prestataire</h2>
+          </div>
+            <form method="post" action="liste.php">
 
-                                    <!-- List group -->
-                                    <ul class="list-group">
-                                        <li class="list-group-item">
-                                            html
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionDefault" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionDefault" class="label-default"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            css
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionPrimary" class="label-primary"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            wordpress
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionSuccess" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionSuccess" class="label-success"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            magento
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionInfo" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionInfo" class="label-info"></label>
-                                            </div>
+              <div class="panel panel-default">
+                <div class="col-xs-6">
+                  <div class="form-group">
+                    <label for="name">Nom:</label>
+                      <input type="name" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="tel">téléphone:</label>
+                      <input type="tel" class="form-control" id="tel">
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="form-group">
+                    <label for="mail">email:</label>
+                      <input type="mail" class="form-control" id="mail">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4">
+                    <div class="panel panel-default">
+<!-- Default panel contents -->
+                    <div class="panel-heading">Compétences:</div>
+<!-- List group -->
+                    <ul class="list-group">
+                      <li class="list-group-item">html
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionDefault" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionDefault" class="label-default"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">css
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionPrimary" class="label-primary"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">wordpress
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionSuccess" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionSuccess" class="label-success"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">magento
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionInfo" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionInfo" class="label-info"></label>
+                        </div>
                                         </li>
                                         <li class="list-group-item">
                                             photo
