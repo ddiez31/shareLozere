@@ -47,4 +47,4 @@ CREATE TABLE IF NOT EXISTS `prestataire` (
 INSERT INTO `prestataire` (`name`, `tel`, `mail`, `html`, `css`, `wordpress`, `magento`, `photo`, `marketing`, `referencement`, `javascript`, `php`, `python`, `formation`, `conseil`, `design`)
 VALUES  ('presta1', '0000000001', 'presta1@example.com', '1', '1', '0', '1', '0', '1', '0', '0', '1', '1', '0', '0', '1'),
         ('presta2', '0000000002', 'presta2@example.com', '1', '1', '0', '1', '1', '0', '0', '1', '1', '0', '0', '1', '0'),
-        ('presta3', '0000000003', 'presta2@example.com', '1', '1', '0', '1', '0', '1', '1', '1', '0', '0', '1', '0', '1');
+        ('presta3', '0000000003', 'presta3@example.com', '1', '1', '0', '1', '0', '1', '1', '1', '0', '0', '1', '0', '1');
