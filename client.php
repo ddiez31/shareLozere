@@ -24,15 +24,15 @@
 
   <h1>Vous cherchez un professionnel:</h1>
   <ul>
-    <li><input type="radio" name="" value="photo">pour faire des photos</li>
-    <li><input type="radio" name="" value="digital marketing">en e-commerce</li>
-    <li><input type="radio" name="" value="marketing">en marketing</li>
-    <li><input type="radio" name="" value="referencement">du référencement</li>
-    <li><input type="radio" name="" value="formation">pour vous dispenser une formation</li>
-    <li><input type="radio" name="" value="conseil">pour vous conseiller</li>
-    <li><input type="radio" name="" value="design">pour le design de votre site internet</li>
-    <li><input type="radio" name="" value="site">pour créer un site internet</li>
-    <li><input type="radio" name="" value="referencement">pour créer une appli mobile</li>
+    <li><input type="checkbox" name="" value="photo">pour faire des photos</li>
+    <li><input type="checkbox" name="" value="digital marketing">en e-commerce</li>
+    <li><input type="checkbox" name="" value="marketing">en marketing</li>
+    <li><input type="checkbox" name="" value="referencement">du référencement</li>
+    <li><input type="checkbox" name="" value="formation">pour vous dispenser une formation</li>
+    <li><input type="checkbox" name="" value="conseil">pour vous conseiller</li>
+    <li><input type="checkbox" name="" value="design">pour le design de votre site internet</li>
+    <li><input type="checkbox" name="" value="site">pour créer un site internet</li>
+    <li><input type="checkbox" name="" value="referencement">pour créer une appli mobile</li>
   </ul>
 
   <form class="validation" action="index.html" method="post">
