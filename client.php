@@ -13,6 +13,11 @@
 
 <body>
 
+<header>
+<img src="./style/logoShareLozere.png" alt="logo">
+</header>
+
+
 <div class="conteneur">
 
   <div class="choix">
@@ -31,11 +36,16 @@
   </ul>
 
   <form class="validation" action="index.html" method="post">
-    <input type="button" name="" value="valider">
+    <a href="#">Valider</a>
 
   </form>
 </div>
 </div>
+
+<footer>
+  <p>Vous êtes connecté en tant que <span><strong>Véro Fleurs</strong></span></p>
+
+</footer>
 
 </body>
 
