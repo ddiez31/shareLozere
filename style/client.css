@@ -1,0 +1,31 @@
+body{
+  /*background-color: lime;*/
+
+
+  }
+
+.conteneur{
+    background-image: url(web.jpg);
+    background-repeat: no-repeat;
+    padding: 50px;
+
+
+}
+
+.choix{
+  width: 50%;
+  height: 400px;
+  background-color: rgb(162,195,9);
+  border-radius: 25px;
+  padding: 15px;
+  margin: 5%;
+
+}
+
+li{
+  list-style: none;
+}
+
+form{
+  margin-left: 5%;
+}
