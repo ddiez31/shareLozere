@@ -63,78 +63,69 @@
                         <input id="someSwitchOptionInfo" name="someSwitchOption001" type="checkbox"/>
                         <label for="someSwitchOptionInfo" class="label-info"></label>
                         </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            photo
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionWarning" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionWarning" class="label-warning"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            marketing
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionDanger" class="label-danger"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            referencement
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionDanger" class="label-danger"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            marketing
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionDanger" class="label-danger"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            javascript
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionDanger" class="label-danger"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            python
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionDanger" class="label-danger"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            formation
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionDanger" class="label-danger"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            conseil
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionDanger" class="label-danger"></label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            design
-                                            <div class="material-switch pull-right">
-                                                <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
-                                                <label for="someSwitchOptionDanger" class="label-danger"></label>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <button type="submit" class="btn btn-default btn-primary">Submit</button>
-                            </div>
+                      </li>
+                      <li class="list-group-item">photo
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionWarning" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionWarning" class="label-warning"></label>
                         </div>
-                    </div>
-                </form>
-            </div>
+                      </li>
+                      <li class="list-group-item">marketing
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionDanger" class="label-danger"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">referencement
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionDanger" class="label-danger"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">marketing
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionDanger" class="label-danger"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">javascript
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionDanger" class="label-danger"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">python
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionDanger" class="label-danger"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">formation
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionDanger" class="label-danger"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">conseil
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionDanger" class="label-danger"></label>
+                        </div>
+                      </li>
+                      <li class="list-group-item">design
+                        <div class="material-switch pull-right">
+                        <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+                        <label for="someSwitchOptionDanger" class="label-danger"></label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <button type="submit" class="btn btn-default btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
     </body>
 </html>
