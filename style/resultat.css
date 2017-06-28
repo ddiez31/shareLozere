@@ -1,3 +1,8 @@
+
+body{
+  background-color: rgb(247,247,247);
+}
+
 header{
   height: 75px;
   margin-top: -20px;
@@ -92,7 +97,3 @@ footer div p{
 span{
   font-style: italic;
 }
-
-
-
-
