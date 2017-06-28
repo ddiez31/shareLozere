@@ -5,34 +5,42 @@
         <title>Formulaire prestataire</title>
         <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="style/style.css">
-        <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js">
-        </script>
+        <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     </head>
     <body>
-      <div class="container">
+    <header>
+    <img src="./style/logoShareLozere.png" alt="logo">
+    </header>
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-6" id='titre'>
+          <div class="col-xs-6 " id='titre'>
           <h2>Formulaire Prestataire</h2>
           </div>
             <form method="post" action="prestataire.php">
-              <div class="panel panel-default">
+              <div class="panel panel-default background">
                 <div class="col-xs-6 background">
                   <div class="form-group">
                     <label for="name">Nom:</label>
                       <input type="name" class="form-control" id="name" name="name">
                   </div>
+              </div>
+              <div class="row" id='top'>
+             </div>
+                <div class="col-xs-6 background">
                   <div class="form-group">
-                    <label for="tel">téléphone:</label>
+                    <label for="tel">Téléphone:</label>
                       <input type="tel" class="form-control" id="tel" name="tel">
                   </div>
                 </div>
+            <div class="row background">
                 <div class="col-xs-6 background">
-                  <div class="form-group">
-                    <label for="mail">email:</label>
-                      <input type="mail" class="form-control" id="mail" name="mail">
-                  </div>
+                    <div class="form-group">
+                        <label for="mail">Email:</label>
+                        <input type="mail" class="form-control" id="mail" name="mail">
+                    </div>
                 </div>
-                <div class="row" id="main">
+            </div>
+                <div class="row "id="main" >
                   <div class="col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-3 background">
                     <div class="panel panel-default">
 <!-- Default panel contents -->
@@ -123,13 +131,16 @@
                       </li>
                     </ul>
                   </div>
-                  <button type="submit" class="btn btn-default btn-primary" value="submit">Submit</button>
+                  <button type="submit" value="submit">Envoyer</button>
                   </div>
                 </div>
               </div>
             </form>
           </div>
         </div>
+        <footer>
+            <p>Vous êtes connecté en tant que <span><strong>Marc Fleurs</strong></span></p>
+        </footer>
         <?php
         include ("connexion.php");
         $mysql->set_charset("utf8");
@@ -139,22 +150,19 @@
 
         	$sql = 'INSERT INTO prestataire (name, tel,  mail)
             VALUES  ("'.$_POST['name'].'", "'.$_POST['tel'].'", "'.$_POST['mail'].'")';
+            var_dump($sql);
             $mysql->query($sql);
 
-            $checkbox = $_POST['checkbox'];
-            foreach ($checkbox as $valeur){
+            foreach ($_POST['checkbox'] as $valeur){
 // todo sql injection:
                 $sql = "UPDATE prestataire SET $valeur=1 WHERE mail='".$_POST['mail']."'";
                 $mysql->query($sql);
             }
             $mysql->close();
 
-            
+        echo "<script type='text/javascript'>document.location.replace('validation_formulaire_prestataire.php');</script>";
         }
-        else {
-        	echo 'Les variables du formulaire ne sont pas déclarées';
-        }
+
         ?>
     </body>
 </html>
-<!-- , html, css, wordpress, magento, photo, marketing, referencement, javascript, php, python, formation, conseil, design) -->

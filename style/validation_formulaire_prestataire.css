@@ -1,0 +1,21 @@
+body {
+    min-height: 600px;
+    color: white;
+}
+h2, p {
+    margin-top: 2em;
+    text-align: center;
+}
+.container {
+    border:1px solid black;
+    background-image: url(web.jpg);
+    background-repeat: no-repeat;
+    padding: 50px;
+    min-height: 600px;
+
+}
+#main {
+    background-color: rgb(162,195,9) !important;
+    border-radius: 25px;
+    min-height: 200px;
+}
