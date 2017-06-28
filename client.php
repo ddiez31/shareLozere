@@ -1,5 +1,4 @@
 <?php
-
 ?>
 
 <!DOCTYPE html>
@@ -53,17 +52,17 @@
 
 <?php
 include ("connexion.php");
-$mysql->set_charset("utf8");
+require 'functions.php';
 
+$mysql->set_charset("utf8");
 // on teste si les variables du formulaire sont bien déclarées
 if (isset($_POST['name']) && isset($_POST['mail']) && isset($_POST['tel'])) {
-
-  $sql = 'INSERT INTO client (name, tel,  mail)
+    $sql = 'INSERT INTO client (name, tel,  mail)
     VALUES  ("'.$_POST['name'].'", "'.$_POST['tel'].'", "'.$_POST['mail'].'")';
     $mysql->query($sql);
 
     $checkbox = $_POST['checkbox'];
-    foreach ($checkbox as $valeur){
+    foreach ($checkbox as $valeur) {
 // todo sql injection:
         $sql = "UPDATE client SET $valeur=1 WHERE mail='".$_POST['mail']."'";
         $mysql->query($sql);
@@ -71,13 +70,11 @@ if (isset($_POST['name']) && isset($_POST['mail']) && isset($_POST['tel'])) {
     $mysql->close();
 
 // ouverture d'une nouvelle page
-echo "<script type='text/javascript'>document.location.replace('resultat.php');</script>";
-
-}
-else {
+    echo "<script type='text/javascript'>document.location.replace('resultat.php');</script>";
+} else {
   // echo 'Les variables du formulaire ne sont pas déclarées';
 }
- ?>
+    ?>
 
 </body>
 
