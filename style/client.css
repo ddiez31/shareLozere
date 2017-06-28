@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(247,247,247);
+}
+
 
 header{
   height: 75px;
@@ -11,13 +15,43 @@ header{
     height: 50%;
     background-image: url(web.jpg);
     background-repeat: no-repeat;
-    background-position: left;
-        }
+    background-position: center;
+    }
 
 h1{
   color: white;
   font-family: arial;
   padding-left: 38px;
+}
+
+
+.identite{
+  width: 50%;
+  height: 100px;
+  background-color: rgb(162,195,9);
+  border-radius: 25px;
+  padding: 15px;
+  margin: 5%;
+  font-family: arial;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.form-control{
+  margin-left: 35px;
+  }
+
+
+#name{
+  margin-left: 55px;
+}
+
+#tel{
+  margin-left: 10px;
+}
+
+#mail{
+  margin-left: 60px;
 }
 
 .choix{
@@ -42,20 +76,24 @@ form{
   margin-left: 5%;
 }
 
-a{
+.choix input{
   background-color: white;
   color: rgb(162,195,9);
-  margin-left: 35px;
+  margin-left: 55px;
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 15px;
   text-decoration: none;
   font-weight: bold;
-
 }
 
-a:hover{
+#button{
+  margin-left: 266px;
+  margin-top: 25px;
+}
+
+input:hover{
   background-color: rgb(8,44,70);
   color: white;
 }
