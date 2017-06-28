@@ -15,15 +15,14 @@
       include ("connexion.php");
       $reponse = $bdd->query("SELECT * FROM prestataire");
       $donnees = $reponse->fetchALL();
-      foreach ($donnees as $reponse)
-      {
-      ?>
+      foreach ($donnees as $reponse) {
+        ?>
           <p> <strong> Nom : </strong> <?php echo $reponse->name; ?>  </p>
           <p> <strong> Téléphone : </strong> <?php echo $reponse->tel; ?> </p>
           <p> <strong> Mail : </strong> <?php echo $reponse->mail; ?> </p>
 
-      <?php
-     }
-     ?>
+        <?php
+      }
+        ?>
     </body>
 </html>

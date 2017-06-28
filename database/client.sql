@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS `client`;
 CREATE TABLE IF NOT EXISTS `client` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
-  `tel` int(11) NOT NULL,
+  `tel` varchar(14) NOT NULL,
   `mail` varchar(255) NOT NULL,
   `photo` boolean,
   `ecommerce` boolean,
@@ -42,6 +42,6 @@ CREATE TABLE IF NOT EXISTS `client` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 INSERT INTO `client` (`name`, `tel`, `mail`, `photo`, `ecommerce`, `marketing`, `referencement`, `formation`, `conseil`, `design`, `site`, `mobile`)
-VALUES  ('client1', '0000000001', 'client1@example.com', '1', '0', '0', '1', '0', '1', '0', '0', '1'),
-        ('client2', '0000000002', 'client2@example.com', '0', '0', '1', '0', '1', '0', '0', '1', '1'),
-        ('client3', '0000000003', 'client3@example.com', '0', '1', '0', '1', '0', '1', '1', '1', '0');
+VALUES  ('client1', '00.00.00.00.01', 'client1@example.com', '1', '0', '0', '1', '0', '1', '0', '0', '1'),
+        ('client2', '00.00.00.00.02', 'client2@example.com', '0', '0', '1', '0', '1', '0', '0', '1', '1'),
+        ('client3', '00.00.00.00.03', 'client3@example.com', '0', '1', '0', '1', '0', '1', '1', '1', '0');
