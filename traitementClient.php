@@ -11,13 +11,11 @@ catch (Exception $e)
 }
 
 
-// $passwordCrypted = password_hash($_POST['password'], PASSWORD_DEFAULT);
-
 try
 {
   $req = $bdd->prepare('INSERT INTO client (photo, ecommerce, marketing, referencement, formation, conseil, design, site, mobile) VALUES(:true, :ecommerce, :marketing, :referencement, :formation, :conseil, :desing, :site, :mobile)');
   $req->execute(array(
-    'photo' => $_POST['photo'],
+    'photo' => $_POST['true'],
     'ecommerce' => $_POST['true'],
     'marketing' => $_POST['true'],
     'referencement'=> $_POST['true'],
