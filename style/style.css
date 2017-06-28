@@ -3,5 +3,24 @@ h2 {
 }
 .container {
     border:1px solid black;
-    box-shadow: 
+    background-image: url(web.jpg);
+    background-repeat: no-repeat;
+    padding: 50px;
+
+}
+
+#main {
+    background-color: rgb(162,195,9) !important;
+    border-radius: 25px;
+}
+form {
+    width: 50%;
+    /*padding: 15px;*/
+    /*height: 400px;*/
+    background-color: rgb(162,195,9);
+    /*margin: 5%;*/
+}
+.list-group-item {
+
+    background-color: rgb(162,195,9);
 }
