@@ -47,4 +47,6 @@ CREATE TABLE IF NOT EXISTS `prestataire` (
 INSERT INTO `prestataire` (`name`, `tel`, `mail`, `html`, `css`, `wordpress`, `magento`, `photo`, `marketing`, `referencement`, `javascript`, `php`, `python`, `formation`, `conseil`, `design`)
 VALUES  ('presta1', '00.00.00.00.01', 'presta1@example.com', '1', '1', '0', '1', '0', '1', '0', '0', '1', '1', '0', '0', '1'),
         ('presta2', '00.00.00.00.02', 'presta2@example.com', '1', '1', '0', '1', '1', '0', '0', '1', '1', '0', '0', '1', '0'),
-        ('presta3', '00.00.00.00.03', 'presta3@example.com', '1', '1', '0', '1', '0', '1', '1', '1', '0', '0', '1', '0', '1');
+        ('presta3', '00.00.00.00.03', 'presta3@example.com', '1', '1', '0', '1', '0', '1', '1', '1', '0', '0', '1', '0', '1'),
+        ('presta4', '00.00.00.00.04', 'presta4@example.com', '0', '0', '1', '0', '1', '0', '0', '1', '1', '0', '0', '1', '0'),
+        ('presta5', '00.00.00.00.05', 'presta5@example.com', '1', '1', '0', '1', '0', '1', '1', '0', '0', '0', '1', '0', '0');
