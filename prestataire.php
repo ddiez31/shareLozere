@@ -147,20 +147,19 @@
 
         // on teste si les variables du formulaire sont bien déclarées
         if (isset($_POST['name']) && isset($_POST['mail']) && isset($_POST['tel'])) {
-
-        	$sql = 'INSERT INTO prestataire (name, tel,  mail)
+            $sql = 'INSERT INTO prestataire (name, tel,  mail)
             VALUES  ("'.$_POST['name'].'", "'.$_POST['tel'].'", "'.$_POST['mail'].'")';
             var_dump($sql);
             $mysql->query($sql);
 
-            foreach ($_POST['checkbox'] as $valeur){
+            foreach ($_POST['checkbox'] as $valeur) {
 // todo sql injection:
                 $sql = "UPDATE prestataire SET $valeur=1 WHERE mail='".$_POST['mail']."'";
                 $mysql->query($sql);
             }
             $mysql->close();
 
-        echo "<script type='text/javascript'>document.location.replace('validation_formulaire_prestataire.php');</script>";
+            echo "<script type='text/javascript'>document.location.replace('validation_formulaire_prestataire.php');</script>";
         }
 
         ?>
